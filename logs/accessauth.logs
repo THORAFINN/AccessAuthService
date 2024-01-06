@@ -1,0 +1,275 @@
+2023-12-17 19:59:30.232  INFO 3500 --- [main] com.accessauth.AccessAuthApplication     : Starting AccessAuthApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 3500 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\AccessAuth\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\AccessAuth)
+2023-12-17 19:59:30.245  INFO 3500 --- [main] com.accessauth.AccessAuthApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-17 19:59:32.749  INFO 3500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-17 19:59:33.227  INFO 3500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 448 ms. Found 2 JPA repository interfaces.
+2023-12-17 19:59:33.846  INFO 3500 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a9bb0b64-1873-3f86-ae5e-e66716620f51
+2023-12-17 19:59:34.695  INFO 3500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2023-12-17 19:59:34.711  INFO 3500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-17 19:59:34.712  INFO 3500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-12-17 19:59:34.957  INFO 3500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-17 19:59:34.957  INFO 3500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4619 ms
+2023-12-17 19:59:35.279  INFO 3500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-17 19:59:35.854  INFO 3500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-17 19:59:35.939  INFO 3500 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-17 19:59:36.058  INFO 3500 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-17 19:59:36.415  INFO 3500 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-17 19:59:36.640  INFO 3500 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-17 19:59:37.681  INFO 3500 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-17 19:59:37.714  INFO 3500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 19:59:38.528  WARN 3500 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-17 19:59:38.878  INFO 3500 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16a15261, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36ec4071, org.springframework.security.web.context.SecurityContextPersistenceFilter@65dd2191, org.springframework.security.web.header.HeaderWriterFilter@5749e633, org.springframework.security.web.authentication.logout.LogoutFilter@1104ad6a, com.accessauth.config.JwtFilter@6870a76f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f98fe6f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17873842, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d8112e6, org.springframework.security.web.session.SessionManagementFilter@3e563293, org.springframework.security.web.access.ExceptionTranslationFilter@41831611, org.springframework.security.web.access.intercept.AuthorizationFilter@2faae7f6]
+2023-12-17 19:59:39.908  INFO 3500 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-12-17 19:59:40.243  WARN 3500 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-17 19:59:40.372  INFO 3500 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-17 19:59:40.462  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-17 19:59:40.471  INFO 3500 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-17 19:59:40.529  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-17 19:59:40.530  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-17 19:59:40.530  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-17 19:59:40.530  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-17 19:59:40.531  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-17 19:59:40.531  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-12-17 19:59:40.531  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-17 19:59:41.137  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-17 19:59:41.145  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-12-17 19:59:41.149  INFO 3500 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-17 19:59:41.159  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1702823381157 with initial instances count: 0
+2023-12-17 19:59:41.161  INFO 3500 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ACCESSAUTHSERVICE with eureka with status UP
+2023-12-17 19:59:41.162  INFO 3500 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1702823381162, current=UP, previous=STARTING]
+2023-12-17 19:59:41.164  INFO 3500 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091: registering service...
+2023-12-17 19:59:41.200  INFO 3500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2023-12-17 19:59:41.201  INFO 3500 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9091
+2023-12-17 19:59:41.239  INFO 3500 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091 - registration status: 204
+2023-12-17 19:59:41.387  INFO 3500 --- [main] com.accessauth.AccessAuthApplication     : Started AccessAuthApplication in 12.25 seconds (JVM running for 13.63)
+2023-12-17 20:00:11.141  INFO 3500 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-17 20:00:11.143  INFO 3500 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-17 20:00:11.143  INFO 3500 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-17 20:00:11.143  INFO 3500 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-17 20:00:11.143  INFO 3500 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-17 20:00:11.143  INFO 3500 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-12-17 20:00:11.146  INFO 3500 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-17 20:00:11.181  INFO 3500 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-17 20:02:57.321  INFO 3500 --- [http-nio-192.168.0.118-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-17 20:02:57.321  INFO 3500 --- [http-nio-192.168.0.118-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-17 20:02:57.322  INFO 3500 --- [http-nio-192.168.0.118-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-17 20:04:40.504  INFO 3500 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-17 20:05:33.297  INFO 3500 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-17 20:05:33.299  INFO 3500 --- [RMI TCP Connection(9)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ACCESSAUTHSERVICE with eureka with status DOWN
+2023-12-17 20:05:33.301  INFO 3500 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1702823733301, current=DOWN, previous=UP]
+2023-12-17 20:05:33.302  INFO 3500 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091: registering service...
+2023-12-17 20:05:33.313  INFO 3500 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-17 20:05:33.318  INFO 3500 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-17 20:05:33.326  INFO 3500 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091 - registration status: 204
+2023-12-17 20:05:33.329  WARN 3500 --- [RMI TCP Connection(9)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+2023-12-17 20:05:33.343  INFO 3500 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:05:33.348  INFO 3500 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-17 20:05:33.371  INFO 3500 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-17 20:05:33.373  INFO 3500 --- [RMI TCP Connection(9)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-17 20:06:09.400  INFO 12356 --- [main] com.accessauth.AccessAuthApplication     : Starting AccessAuthApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 12356 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\AccessAuth\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\AccessAuth)
+2023-12-17 20:06:09.407  INFO 12356 --- [main] com.accessauth.AccessAuthApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-17 20:06:10.966  INFO 12356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-17 20:06:11.276  INFO 12356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 285 ms. Found 2 JPA repository interfaces.
+2023-12-17 20:06:11.813  INFO 12356 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a9bb0b64-1873-3f86-ae5e-e66716620f51
+2023-12-17 20:06:12.611  INFO 12356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2023-12-17 20:06:12.637  INFO 12356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-17 20:06:12.638  INFO 12356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-12-17 20:06:12.935  INFO 12356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-17 20:06:12.936  INFO 12356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3426 ms
+2023-12-17 20:06:13.266  INFO 12356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-17 20:06:13.947  INFO 12356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-17 20:06:14.063  INFO 12356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-17 20:06:14.222  INFO 12356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-17 20:06:14.607  INFO 12356 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-17 20:06:14.853  INFO 12356 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-17 20:06:15.966  INFO 12356 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-17 20:06:16.004  INFO 12356 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:06:16.924  WARN 12356 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-17 20:06:17.339  INFO 12356 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7db70494, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f030217, org.springframework.security.web.context.SecurityContextPersistenceFilter@41831611, org.springframework.security.web.header.HeaderWriterFilter@103033fe, org.springframework.security.web.authentication.logout.LogoutFilter@5cff6d1d, com.accessauth.config.JwtFilter@30221cfa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5749e633, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41c83af0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fca9fae, org.springframework.security.web.session.SessionManagementFilter@7c919e1e, org.springframework.security.web.access.ExceptionTranslationFilter@67683210, org.springframework.security.web.access.intercept.AuthorizationFilter@3b28ab9b]
+2023-12-17 20:06:18.582  INFO 12356 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-12-17 20:06:19.047  WARN 12356 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-17 20:06:19.236  INFO 12356 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-17 20:06:19.351  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-17 20:06:19.363  INFO 12356 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-17 20:06:19.427  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-17 20:06:19.429  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-17 20:06:19.429  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-17 20:06:19.430  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-17 20:06:19.431  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-17 20:06:19.431  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-12-17 20:06:19.431  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-17 20:06:20.198  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-17 20:06:20.206  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-12-17 20:06:20.214  INFO 12356 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-17 20:06:20.227  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1702823780226 with initial instances count: 2
+2023-12-17 20:06:20.231  INFO 12356 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ACCESSAUTHSERVICE with eureka with status UP
+2023-12-17 20:06:20.233  INFO 12356 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1702823780233, current=UP, previous=STARTING]
+2023-12-17 20:06:20.237  INFO 12356 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091: registering service...
+2023-12-17 20:06:20.308  INFO 12356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2023-12-17 20:06:20.310  INFO 12356 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9091
+2023-12-17 20:06:20.357  INFO 12356 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091 - registration status: 204
+2023-12-17 20:06:20.545  INFO 12356 --- [main] com.accessauth.AccessAuthApplication     : Started AccessAuthApplication in 12.331 seconds (JVM running for 13.82)
+2023-12-17 20:06:36.019  INFO 12356 --- [http-nio-192.168.0.118-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-17 20:06:36.019  INFO 12356 --- [http-nio-192.168.0.118-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-17 20:06:36.024  INFO 12356 --- [http-nio-192.168.0.118-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-12-17 20:07:39.031 ERROR 12356 --- [http-nio-192.168.0.118-9091-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2023-12-12T09:14:46Z. Current time: 2023-12-17T20:07:39Z, a difference of 471173020 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.accessauth.common.JwtUtil.extractAllClaims(JwtUtil.java:34) ~[classes/:na]
+	at com.accessauth.common.JwtUtil.extractClaim(JwtUtil.java:29) ~[classes/:na]
+	at com.accessauth.common.JwtUtil.extractUsername(JwtUtil.java:21) ~[classes/:na]
+	at com.accessauth.config.JwtFilter.doFilterInternal(JwtFilter.java:41) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) ~[spring-security-web-5.7.11.jar:5.7.11]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.30.jar:5.3.30]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.82.jar:9.0.82]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-12-17 20:09:29.196  INFO 12356 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-17 20:09:29.198  INFO 12356 --- [RMI TCP Connection(7)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ACCESSAUTHSERVICE with eureka with status DOWN
+2023-12-17 20:09:29.200  INFO 12356 --- [RMI TCP Connection(7)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1702823969200, current=DOWN, previous=UP]
+2023-12-17 20:09:29.202  INFO 12356 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091: registering service...
+2023-12-17 20:09:29.214  INFO 12356 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-17 20:09:29.217  INFO 12356 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091 - registration status: 204
+2023-12-17 20:09:29.218  INFO 12356 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-17 20:09:29.225  WARN 12356 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+2023-12-17 20:09:29.243  INFO 12356 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 20:09:29.250  INFO 12356 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-17 20:09:29.289  INFO 12356 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-17 20:09:29.290  INFO 12356 --- [RMI TCP Connection(7)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-12-17 21:55:11.224  INFO 11272 --- [main] com.accessauth.AccessAuthApplication     : Starting AccessAuthApplication using Java 17.0.5 on DESKTOP-PF1TINM with PID 11272 (C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\AccessAuth\target\classes started by acer in C:\Users\acer\Documents\workspace-spring-tool-suite-4-4.17.1.RELEASE\AccessAuth)
+2023-12-17 21:55:11.228  INFO 11272 --- [main] com.accessauth.AccessAuthApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-17 21:55:12.209  INFO 11272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-17 21:55:12.494  INFO 11272 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 270 ms. Found 2 JPA repository interfaces.
+2023-12-17 21:55:12.853  INFO 11272 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a9bb0b64-1873-3f86-ae5e-e66716620f51
+2023-12-17 21:55:13.344  INFO 11272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9091 (http)
+2023-12-17 21:55:13.359  INFO 11272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-17 21:55:13.359  INFO 11272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-12-17 21:55:13.525  INFO 11272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-17 21:55:13.525  INFO 11272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2241 ms
+2023-12-17 21:55:13.738  INFO 11272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-17 21:55:14.171  INFO 11272 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-17 21:55:14.240  INFO 11272 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-17 21:55:14.328  INFO 11272 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-12-17 21:55:14.578  INFO 11272 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-17 21:55:14.759  INFO 11272 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-12-17 21:55:15.512  INFO 11272 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-17 21:55:15.526  INFO 11272 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 21:55:16.187  WARN 11272 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-17 21:55:16.390  INFO 11272 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e5e7753, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11678469, org.springframework.security.web.context.SecurityContextPersistenceFilter@21202507, org.springframework.security.web.header.HeaderWriterFilter@530bd77b, org.springframework.security.web.authentication.logout.LogoutFilter@9ba167e, com.accessauth.config.JwtFilter@7f49df25, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4379fe2a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@31921151, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@395115ac, org.springframework.security.web.session.SessionManagementFilter@6464f017, org.springframework.security.web.access.ExceptionTranslationFilter@63a9af28, org.springframework.security.web.access.intercept.AuthorizationFilter@5cff6d1d]
+2023-12-17 21:55:17.060  INFO 11272 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-12-17 21:55:17.283  WARN 11272 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-17 21:55:17.370  INFO 11272 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-12-17 21:55:17.422  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-12-17 21:55:17.428  INFO 11272 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-17 21:55:17.459  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-12-17 21:55:17.459  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-12-17 21:55:17.459  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-12-17 21:55:17.460  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-12-17 21:55:17.460  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-12-17 21:55:17.460  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-12-17 21:55:17.460  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-12-17 21:55:17.879  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-12-17 21:55:17.885  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-12-17 21:55:17.890  INFO 11272 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-12-17 21:55:17.900  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1702830317898 with initial instances count: 2
+2023-12-17 21:55:17.904  INFO 11272 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ACCESSAUTHSERVICE with eureka with status UP
+2023-12-17 21:55:17.905  INFO 11272 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1702830317905, current=UP, previous=STARTING]
+2023-12-17 21:55:17.908  INFO 11272 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091: registering service...
+2023-12-17 21:55:17.944  INFO 11272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9091 (http) with context path ''
+2023-12-17 21:55:17.945  INFO 11272 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9091
+2023-12-17 21:55:17.969  INFO 11272 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091 - registration status: 204
+2023-12-17 21:55:18.073  INFO 11272 --- [main] com.accessauth.AccessAuthApplication     : Started AccessAuthApplication in 7.573 seconds (JVM running for 8.618)
+2023-12-17 21:57:09.705  INFO 11272 --- [http-nio-192.168.0.118-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-17 21:57:09.706  INFO 11272 --- [http-nio-192.168.0.118-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-17 21:57:09.707  INFO 11272 --- [http-nio-192.168.0.118-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-17 22:00:17.469  INFO 11272 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-17 22:05:17.478  INFO 11272 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-17 22:09:12.052  INFO 11272 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-12-17 22:09:12.054  INFO 11272 --- [RMI TCP Connection(16)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ACCESSAUTHSERVICE with eureka with status DOWN
+2023-12-17 22:09:12.055  INFO 11272 --- [RMI TCP Connection(16)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1702831152055, current=DOWN, previous=UP]
+2023-12-17 22:09:12.055  INFO 11272 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091: registering service...
+2023-12-17 22:09:12.061  INFO 11272 --- [RMI TCP Connection(16)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-17 22:09:12.064  INFO 11272 --- [RMI TCP Connection(16)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-17 22:09:12.071  INFO 11272 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCESSAUTHSERVICE/host.docker.internal:AccessAuthService:9091 - registration status: 204
+2023-12-17 22:09:12.071  WARN 11272 --- [RMI TCP Connection(16)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+2023-12-17 22:09:12.088  INFO 11272 --- [RMI TCP Connection(16)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-17 22:09:12.091  INFO 11272 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-17 22:09:12.107  INFO 11272 --- [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-17 22:09:12.107  INFO 11272 --- [RMI TCP Connection(16)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
